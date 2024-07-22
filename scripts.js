@@ -45,7 +45,7 @@ window.onscroll = () => {
 
 // typed js
 const typed = new Typed('.multiple-text', {
-    strings: ['Software Development Student', 'Web Designer'],
+    strings: ['Software Development Student', 'Web Designer', 'Web Developer', 'Logo and UI/UX Designer'],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 1000,
@@ -58,6 +58,3 @@ function submitForm() {
     frm.submit(); // Submit the form
     frm.reset(); // Reset all form data
 }
-
-
-
