@@ -345,52 +345,7 @@ span{
     box-shadow: none;
 }
 
-.contact h2{
-    margin-bottom: 3rem;
-    text-align: center;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    word-spacing: 6px;
-}
-
-.contact form{
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.contact form .input-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact form .input-box input,
-.contact form textarea{
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--trans-bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
-}
-
-.contact form .input-box input{
-    width: 49%;
-}
-
-.contact form textarea{
-    resize: none;
-}
-
-.contact form .button{
-    margin-top: 2rem;
-    cursor: pointer;
-}
-
-.footer{
+/* .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -421,7 +376,51 @@ span{
 .footer-iconTop a i{
     font-size: 2rem;
     color: var(--trans-bg-color);
+} */
+/* FOOTER SECTION STYLES */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 7%;
+    background-color: var(--trans-bg-color);
+    margin-top: 0; /* Ensure no additional space is added above footer */
 }
+
+.footer-text {
+    font-size: 1.4rem;
+    text-align: center;
+    flex: 1 1 100%;
+}
+
+.footer-contact-info {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+.footer-contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.footer-contact-info li {
+    margin: 5px 0;
+}
+
+.footer-contact-info a {
+    font-size: 16px;
+    color: var(--used-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-contact-info a:hover {
+    color: var(--bg-color);
+    text-decoration: underline;
+}
+
 
 /* CUSTOM SCROLLBAR */
 ::-webkit-scrollbar{
